@@ -1,5 +1,5 @@
 
-# buouyu-echarts-demo
+# buouyu-echarts-demo for HbuilderX
 # 高兼容性echarts组件buouyu-echarts，支持APP,小程序，H5的echarts uni-app组件
 
 
