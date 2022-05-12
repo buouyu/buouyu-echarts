@@ -14,7 +14,9 @@
 看一下官方提供的
 
 当然也有其他方式引入echarts，但是都不能做到app,小程序，h5都支持的
+
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb479108b062457f912566dee32441d1~tplv-k3u1fbpfcp-zoom-1.image)
+
 这还用个吊毛呀，不知道你们有没有遇到跟我一样的问题
 
 小编研究数日，总结了一套方案，只为解决一个问题：
