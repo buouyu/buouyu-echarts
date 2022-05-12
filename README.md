@@ -198,7 +198,7 @@ data() {
 | canvasId | 唯一标识，同一组件里不要设置相同的值 | 是 | string | buouyu | ——— |
 | option | 参考echarts官网配置 | 是 | object | ——— | ——— |
 | width | 宽度，支持px,rem,rpx,vw等 | 否 | string | 90%，30rem | 100% |
-| height | 宽度，支持px,rem,rpx,vh等 | 否 | string | 300px,30vh | 500rem |
+| height | 宽度，支持px,rem,rpx,vh等 | 否 | string | 300px,30vh | 500rpx |
 
 有兴趣的可以一起学习交流
 小编微信：buouyupro
