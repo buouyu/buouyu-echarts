@@ -1,0 +1,46 @@
+{
+  "_from": "buouyu-echarts",
+  "_id": "buouyu-echarts@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-9rbJCmyfNRt78wIFGAJn5+fiXDGsitbujcm2jkVl5xlPtvSqjQ4hP22pUSyiFy02Zc+39h25KMf3bMBu3j3+cw==",
+  "_location": "/buouyu-echarts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "buouyu-echarts",
+    "name": "buouyu-echarts",
+    "escapedName": "buouyu-echarts",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/buouyu-echarts/-/buouyu-echarts-1.0.1.tgz",
+  "_shasum": "e974fa4330e185a0671ca8e374cbdd9231e84a54",
+  "_spec": "buouyu-echarts",
+  "_where": "D:\\destop.1\\一年半\\项目\\project practice\\09小程序\\normalize-demo",
+  "author": {
+    "name": "buouyu"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "echarts": "^5.3.2"
+  },
+  "deprecated": false,
+  "description": "uni-app高兼容性echarts的组件，支持app,小程序，h5等，跟官方echarts一样",
+  "keywords": [
+    "buouyu-echarts",
+    "uniapp高兼容性echarts组件"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.vue",
+  "name": "buouyu-echarts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

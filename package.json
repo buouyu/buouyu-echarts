@@ -1,0 +1,14 @@
+{
+  "name": "buouyu-echarts-demo",
+  "version": "1.0.0",
+  "description": "用于解决uni-app引入echarts 的兼容性问题,兼容app,小程序,h5",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.3.2"
+  }
+}
