@@ -31,6 +31,7 @@ github demo地址：[https://github.com/1879153421/buouyu-echarts](https://githu
 <a name="pbmjX"></a>
 ## 1、npm 直接安装
 直接通过npm安装即可
+
 npm 模块地址：[https://www.npmjs.com/package/buouyu-echarts](https://www.npmjs.com/package/buouyu-echarts)
 ```bash
 npm i buouyu-echarts
