@@ -9,7 +9,7 @@
 
 用起来确实爽，小编也爱不释手
 
-但需要做一些复杂的图标时，引入echarts，却失去了uni-app最牛逼的特性
+但需要做一些复杂的图表时，引入echarts，却失去了uni-app最牛逼的特性
 
 看一下官方提供的
 
@@ -34,6 +34,7 @@ github demo地址：[https://github.com/1879153421/buouyu-echarts](https://githu
 # 快速入门
 <a name="pbmjX"></a>
 ## 1、npm 直接安装
+
 直接通过npm安装即可
 
 npm 模块地址：[https://www.npmjs.com/package/buouyu-echarts](https://www.npmjs.com/package/buouyu-echarts)
@@ -50,13 +51,13 @@ npm i buouyu-echarts
 // 设置成淘宝镜像 npm config set registry http://registry.npm.taobao.org/ 
 // 换成原来的 npm config set registry https://registry.npmjs.org/
 ```
-    也有可能之前的版本不见了，可以把package.json总的buouyu-echarts删掉，在执行npm i buouyu-echarts安装最新的
+    也有可能之前的版本不见了，可以把package.json中的buouyu-echarts依赖删掉，再执行npm i buouyu-echarts安装最新的
 
-安装成功以后直接在需要用的页面引入
+安装成功之后直接在需要用的页面引入
 ```javascript
 import buouyuEcharts from 'buouyu-echarts'
 ```
-components挂在一下
+components挂载一下
 ```javascript
 components: {
 			buouyuEcharts
@@ -102,14 +103,14 @@ return {
 这样就你能在app，小程序，h5都能看到同样的效果啦
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d8103e86dd7f45e3b6ad96cf881f00ab~tplv-k3u1fbpfcp-zoom-1.image)
 
-当然也可以全局挂在
+当然也可以全局挂载
 
 在根目录的main.js
 ```javascript
 import Vue from 'vue'
 import App from './App'
 import buouyuEcharts from 'buouyu-echarts' //引入buouyu-echarts
- Vue.component('buouyuEcharts',buouyuEcharts)  //挂在到全局
+ Vue.component('buouyuEcharts',buouyuEcharts)  //挂载到全局
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
